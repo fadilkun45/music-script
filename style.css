@@ -1,0 +1,112 @@
+* {
+    margin: 0 ;
+    padding: 0 ;
+}
+
+body {
+    background-color: #87f3c7 ;
+}
+
+nav {
+    background-color:  #03f593 ;
+    justify-content: space-between ;
+    font-size: 20px ;
+    padding: 10px ;
+    font-family: sans-serif ;
+}
+
+.container {
+    margin: auto ;
+    width: 500px ;
+    background-color: #cff3e4 ;
+    display: flex ;
+    flex-direction: column ;
+    height: 500px ;
+    margin-top: 20px ;
+}
+
+.container .musik-list {
+    display: flex ;
+    flex-direction: column ;
+    width: 460px ;
+    height: 800px ;
+    margin: 20px auto ;
+    background-color: #edf7f3 ;
+    overflow-x: hidden ;
+}
+
+.container .musik-list .music-box {
+    display: flex ;
+    flex-direction: row ;
+    width: 430px ;
+    margin: 5px auto ;
+    border: 1px solid black ;
+    padding: 5px ;
+    cursor: pointer ;
+}
+
+.container .musik-list .music-box p {
+    order: 2 ;
+    text-align: center ;
+    font-size: 25px ;
+    margin: auto ;
+}
+
+.container .musik-list .music-box img {
+    order: 1 ;
+    width: 150px ;
+    height: 150px ;
+}
+
+.container .music-options {
+    height : 370px ;
+    border-radius: 100% 0 0 0 ;
+    background-color:  #02e3f5 ;
+    overflow-x: hidden ;
+    display: flex ;
+}
+
+.container .music-options .container-music{
+    position: relative;
+    display: flex ;
+    flex-direction: column ;
+    width: 300px ;
+    margin: 10px auto ;
+    margin-top : 40px ;
+}
+
+.container .music-options #timer {
+    text-align: center ;
+    font-size: 20px ;
+}
+
+
+.container.music-options .container-music marquee {
+    font-size: 20px ;   
+}
+
+.container .music-options .container-music .load {
+    background-color: #f50202 ;
+    height: 10px ;
+    margin: 4px 0 ;
+}
+
+.container .music-options .container-music .load .bar-music {
+    background-color: #edf7f3 ;
+    height: 10px ;
+    width: 0 ;
+}
+
+.container .music-options .container-music .btn-music {
+    display: flex ;
+    flex-direction: row ;
+    margin: auto ;
+    width: 280px ;
+    justify-content: space-between ;
+    margin-top: 5px ;
+}
+
+.container .music-options .container-music .btn-music a {
+    color: black ;
+    font-size: 20px ;
+}

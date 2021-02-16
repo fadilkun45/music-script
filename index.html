@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+</head>
+<body>
+    <nav>
+        <h1>music player</h1>
+    </nav>
+    <div class="container">
+        <div class="musik-list">
+            <div class="music-box">
+                <p>Literature reina ueda</p>
+                <img src="https://i1.wp.com/www.yumeost.com/wp-content/uploads/2020/10/Reina-Ueda-%E2%80%93-Literature.jpg?resize=500%2C500&ssl=1">
+            </div>
+
+            <div class="music-box">
+                <p>haiiro no saga</p>
+                <img src="https://static.wikia.nocookie.net/jpop/images/9/96/Haiiro_no_Saga.jpg/revision/latest?cb=20201013113312">
+            </div>
+
+            <div class="music-box">
+                <p>Endless tear</p>
+                <img src="https://img.youtube.com/vi/U5pk6RkM-VM/0.jpg">
+            </div>
+
+            <!-- <div class="music-box">
+                <p>nama musik</p>
+                <img src="../../elaina/49.png">
+            </div>
+
+            <div class="music-box">
+                <p>nama musik</p>
+                <img src="../../elaina/49.png">
+            </div> -->
+        </div>
+
+        <div class="music-options">
+            <div class="container-music">
+            <p id="timer">00:00</p>
+            <marquee id="judul">Literature reina ueda</marquee>
+            <div class="load">
+                <div class="bar-music"></div>
+            </div>
+            <div class="btn-music">
+                <a href = "#" onclick="prevmusic()"><i class="fas fa-backward"></i>
+                </a>
+                <a  href = "#" class = "play-pause" onclick="playmusic()"><i class="fas fa-play"></i>
+                </a>
+                <a  href = "#" onclick="nextmusic()"><i class="fas fa-forward"></i>
+                </a>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"
+  ></script>
+    <script src="script.js"></script>
+</body>
+</html>
