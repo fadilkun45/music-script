@@ -8,7 +8,7 @@ let musicdisplay = document.querySelectorAll(".music-box");
 
 let audio = new Audio();
 let currentsong = 0 ;
-window.onload = setelmusic;
+// window.onload = setelmusic;
 
 
 
